@@ -34,7 +34,7 @@ An etalon in the cavity (in the second focus) allows longitudinal mode selection
 - This collimator is mounted into the *OPO-Block* (see 3D file in *designs*) with a horizontal polarisation.
 - A 0.5 inch lens with 62.9 mm focal length (*Newport KPX052AR.33*) focusses the pump power into the nonlinear crystal. It is mounted with the *Linsenhalter* (in designs).
 - The nonlinear crystal is made of magnesium oxide doped (5%) lithium niobate with a periodic poling for *quasi phase matching*. A fanout structure of the poling period allows tuning via vertical translation. Use [SNLO](https://as-photonics.com/products/snlo/) for calculating the poling period. *HC Photonics* is capable of producing this crystal.
-- The crystal is mounted in a heating oven (*HC Photonics TC038D*) for temperature controlling.
+- The crystal is mounted in a heating oven (*HC Photonics TC038D*) for temperature controlling. For a python API controlling the oven temperature see [pymeasure](https://pymeasure.readthedocs.io).
 - The oven is mounted to the OPO-Block via a translation stage (*Thorlabs XR25P_M*) and *Ofen-Adapterplatte* (in designs)
 - Four specially coated 25mm mirrors (Anti-reflection for 1064 and the idler on both sides. Anti-reflection coating is for the signal on the outside and high-reflection on the inside), two mirrors with concave curvature of 100 mm (next to the oven) and two planar ones, form the cavity. Laseroptik made them in our case. Most important is the high reflectivity for the signal.
 - One mirror is glued into the OPO-Block, one is mounted with a SM1 ring from Thorlabs and the other two (on the output side of the Block) are mounted with *Thorlabs Polaris K25F4_M* in order to adjust the cavity.
