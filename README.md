@@ -2,6 +2,7 @@
 
 Open source hardware for a continuous wave optical parametric oscillator (OPO) in the mid-infrared regime.
 
+[![DOI](https://zenodo.org/badge/392327989.svg)](https://zenodo.org/badge/latestdoi/392327989)
 
 ## History
 
